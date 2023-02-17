@@ -8,6 +8,10 @@ img {
   display: block;
 }
 
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -19,6 +23,9 @@ ul {
 }
 
 h1,
+h2,
+h3,
+h4,
 p,
 ul {
   margin: 0px;
