@@ -35,6 +35,7 @@ header {
   position: absolute;
 }
 
-.menu a:hover:after {
+.menu a:hover::after,
+.menu a.ativo::after {
   width: 100%;
 }

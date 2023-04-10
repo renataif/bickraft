@@ -7,13 +7,9 @@
   --fontsize-64px: 4rem;
 }
 
-.font-1gt {
-  font-size: var(--fontsize-64px);
-  line-height: 1.125;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+.font-1-xxl {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
 }
-
 .font-1-xs {
   font: 400 0.75rem/1.35 "Poppins", sans-serif;
 }
@@ -67,7 +63,7 @@
 }
 
 @media (max-width: 1200px) {
-  .font-1gt {
+  .font-1-xxl {
     font-size: 3rem;
   }
   .font-2-l,
@@ -77,7 +73,7 @@
 }
 
 @media (max-width: 800px) {
-  .font-1gt {
+  .font-1-xxl {
     font-size: 2rem;
   }
   .font-1-xl,
